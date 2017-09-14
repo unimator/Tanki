@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212158769943864142}
   - component: {fileID: 114651357813958330}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,7 +35,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1631815519039240}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.033, z: 0}
+  m_LocalPosition: {x: -1.43, y: 2.73, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -52,6 +52,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 571d2f6eb360e2940911745925add766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MovementSpeed: 0.01
+  TankColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &212158769943864142
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -84,7 +86,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 76ea497dca32a0a4a8acc7e1e16f6427, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 378c6eae781ceb8429dfdee69733276d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -92,5 +94,5 @@ SpriteRenderer:
   m_Size: {x: 0.72, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
